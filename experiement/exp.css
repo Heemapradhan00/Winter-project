@@ -1,0 +1,1182 @@
+@media (min-width: 992px){
+	.dropdown-menu .dropdown{
+		border-top: .3em solid transparent;
+	    border-right: 0;
+	    border-bottom: .3em solid transparent;
+	    border-left: .3em solid;
+	color:black;
+
+	}
+	}
+
+
+    
+
+.mid-header-text {
+    text-align: center;
+    margin-top: 50px; /* Adjust the top margin as needed */
+    font-family: 'Source Sans Pro', sans-serif;
+    
+   
+    
+	
+}
+
+
+.top-line,
+.middle-line,
+.bottom-line {
+    font-weight: 700;
+    font-size: 70px;
+    
+    margin-top: 10px; /* Adjust the bottom margin as needed */
+    
+}
+.create-yours {
+    text-align: center;
+    margin: auto;
+    width: fit-content;
+    padding: 10px;
+     border-radius: 20px;
+    background-color: #8a2be2; 
+}
+
+.create-yours button {
+  padding: 6px 16px;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  color: wheat;
+}
+.create-yours-button:hover {
+  background-color: #8a2be2; /* Darker purple on hover */
+/* Larger border-radius on hover */
+}
+
+
+.yy {
+    text-align: center;
+    margin: 20px auto;
+    width: fit-content;
+	font-size:50px;
+	font-weight: bold;
+
+}
+.parallax-container {
+  overflow: hidden;
+  height: 100vh;
+}
+
+
+.parallax-layer {
+  width: 100%;
+  height: auto;
+  transform: translateZ(0);
+  transition: transform 0.5s ease-out; 
+  position: relative; 
+}
+
+.parallax-layer img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.card-group {
+    display: flex;
+	flex-wrap: wrap; 
+	justify-content: center; /* Center the cards horizontally */
+
+}
+
+.card.pictures {
+    text-align: center; /* Center images horizontally */
+    margin: 0 10px; /* Add some margin between the cards */
+	transition: transform 0.3s ease;
+}
+
+.card.pictures img {
+    width: 100%; /* Make the images inside the card take 100% width */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 400px; /* Set a maximum width for the images */
+}
+
+.card.pictures:hover {
+    transform: scale(1.1);
+}
+
+
+
+.card.pictures h1 {
+    font-weight: bold; /* Make the text bold */
+    font-size: 30px; /* Set the desired font size, adjust as needed */
+    margin-top: 10px; /* Add some top margin for spacing */
+}
+                                         
+footer h1 small {
+    font-size: 80%; /* You can adjust the percentage as needed */
+}
+
+footer .card-img-top {
+    max-width: 100%; /* Set the maximum width to 100% of the container */
+    height: auto; /* Maintain aspect ratio */
+    width: 150px;
+    display:block;
+    margin:0 auto;
+    max-height: 300px;
+}
+
+footer .col-lg-3 {
+    border-right: 1px solid black; /* Add a right border to each column */
+    padding-right: 15px;
+    margin-right: 0;
+
+}
+
+footer .col-lg-3 {
+    border-right: 1px solid black; /* Add a right border to each column */
+    padding-right: 30px; /* Add some padding to visually separate the content from the border */
+    margin-right: 60px; /* Add a margin to create a gap between columns */
+}
+
+footer .col-lg-3:last-child {
+    border-right: none; /* Remove the right border from the last column */
+    padding-right: 0; /* Remove the padding from the last column */
+    margin-right: 0; /* Remove the margin from the last column */
+}
+
+.p-container {
+    text-align: center;
+    margin-top: 20px; /* Adjust margin-top as needed */
+}
+
+.p-container h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.section.text-center {
+    text-align: center;
+}
+
+.section h5 {
+    font-size: 16px; /* Adjust the font size for the text */
+}
+
+.p-container {
+    margin-top: 100px; /* Adjust the margin value as needed */
+}
+
+.custom-flex {
+    font-weight: bold;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family:   'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  gap: 10px;
+}
+
+.center-image {
+  width: 25%; /* Adjust the width of the center image as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-images img,
+.right-images img{
+  display: flex;
+  flex-direction: column;
+  gap: 10px; 
+  
+    margin-bottom: 10px; 
+    margin-left: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+ 
+}
+
+.left-images .top-images img,
+.left-images .bottom-images img,
+.right-images .top-images img,
+.right-images .bottom-images img {
+  margin-bottom: 30px; /* Adjust the margin between small images as needed */
+  margin-left: 10px; /* Adjust the margin between small images as needed */
+  width: 20px; /* Set the width of small images */
+  height: auto;
+  width: 200px;
+  margin-top: 30px;
+}
+
+.top-images,
+.bottom-images {
+  display: flex;
+  gap: 5px;
+}
+
+.image-container img {
+  max-width: 100%; /* Ensure the center image doesn't exceed its container */
+  height: auto;
+  transition: transform 0.3s ease,box-shadow 0.3s ease;;
+  
+  border-radius: 10px; /* Add border-radius */
+}
+
+
+
+.image-container img:hover {
+  transform: scale(1.2);
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Button container styles */
+  .explore-button {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Button styles */
+  .year-in-review-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #8a2be2; ;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  /* Image container styles */
+  .black-img {
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  /* Image styles */
+  .black-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+    max-width: 100%;
+  }
+  
+  /* Content container styles */
+  .content-container {
+    position: absolute;
+    top: 40%;
+    right: 10%;
+    left: 5%;
+    text-align: left;
+    z-index: 1;
+  }
+  
+  /* Content text styles */
+  .content-container h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .content-container h2 {
+    font-size: 14px;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  
+  .content-container .deal-button {
+    display: inline-block;
+    padding: 8px 15px;
+    font-size: 14px;
+    text-align: center;
+    background-color:  #8a2be2; ;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* Icon above container styles */
+  .icon-above {
+    text-align: center;
+    margin-top: 20px;
+    background-color: #ffede7;
+    padding: 20px;
+  }
+  
+  /* Icon above text styles */
+  .icon-above h1 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  /* Icon row styles */
+  .icon-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  /* Individual icon styles */
+  .icon {
+    margin: 10px;
+    width: 80px;
+    height: auto;
+  }
+  
+  /* Icon caption styles */
+  .icon-caption {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 15px;
+    padding: 20px;
+  }
+  
+  /* Heading 2 styles */
+  h2 {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  }
+  
+  /* TM styles */
+  .tm {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
+  }
+  
+  /* Media Query for Small Screens */
+  @media (max-width: 768px) {
+    .explore-button {
+      margin-bottom: 10px;
+    }
+  
+    .year-in-review-button {
+      padding: 12px 20px;
+      font-size: 12px;
+    }
+  
+    .content-container h1 {
+      font-size: 16px;
+    }
+  
+    .content-container h2 {
+      font-size: 12px;
+    }
+  
+    .content-container .deal-button {
+      padding: 8px 12px;
+      font-size: 12px;
+    }
+  
+    .icon-above h1 {
+      font-size: 16px;
+    }
+  
+    .icon-row {
+      flex-direction: column;
+    }
+  
+    .icon {
+      width: 60px;
+    }
+  
+    .icon-caption {
+      font-size: 24px;
+      padding: 10px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    }
+  
+    h2 {
+      font-size: 16px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    }
+  
+    .tm {
+      font-size: 50px;
+      padding-top: 20px;
+    }
+  }
+  .flex-container {
+    display: flex;
+    max-width: 100%;
+    overflow: hidden; 
+    margin-bottom: 20%;
+  }
+
+  
+  .video-container {
+    flex: 1;
+    position: relative;
+    padding-bottom: 40%;
+    overflow: hidden;
+    width: 50px;
+  }
+
+  .video-container iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+right: 200px;
+  }
+
+  .flex-container2 {
+    display: flex;
+    max-width: 100%;
+    overflow: hidden;
+    
+    margin-bottom: 10px; /* Add a gap at the bottom */
+  }
+
+  /* Style for the Vimeo iframe */
+  .video-container2 {
+    flex: 1; /* Take remaining space in the flex container */
+    position: relative;
+    padding-bottom: 56.25%; /* Aspect ratio for 16:9 video */
+    overflow: hidden;
+  }
+
+  .video-container2 iframe {
+    position: absolute;
+    width: 200%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+  
+  .heading{
+    font-size: 20px;
+    text-align: right;
+    font-weight: bold;
+    padding-top: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  }
+
+  .heading{
+    font-size: 20px;
+    text-align: left;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+   
+  }
+
+  .start-creating-button {
+    background-color: #8a2be2; /* Darker purple on hover */
+    border-radius: 20px;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    border-radius: 20px; 
+  }
+
+.start-creating-button:hover {
+    background-color: #8a2be2; /* Darker purple on hover */
+  /* Larger border-radius on hover */
+}
+.start-creating {
+  text-align: center;
+  margin-top: 10vh; /* Adjust margin-top to center vertically */
+}
+
+.alb-heading{
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  padding-top: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+ 
+}
+
+.flex-albumn {
+  display: flex;
+  flex-direction: column;
+  align-items:center; /* Center items horizontally */
+}
+
+.flex-albumn img {
+  width: 200%; /* Use width instead of max-width */
+  height: auto;
+  object-fit: cover; /* Ensure the image covers the container */
+}
+
+
+.flex-albumn h2, .flex-albumn h1 {
+  margin-right: 30px;
+  text-align: right; 
+  font-weight: bold;
+}
+
+.card-above{
+  text-align: center;
+  font-weight: bold;
+  padding-top: 40px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+.card-images {
+  display: flex;
+flex-wrap: wrap; 
+justify-content: center; /* Center the cards horizontally */
+
+}
+
+.card.images {
+  text-align: center; /* Center images horizontally */
+  margin: 0 10px; /* Add some margin between the cards */
+transition: transform 0.3s ease;
+}
+
+.card.images img {
+  width: 100%; /* Make the images inside the card take 100% width */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 400px; /* Set a maximum width for the images */
+}
+
+.card.images:hover {
+  transform: scale(1.1);
+}
+.card.images h1 {
+  font-weight: bold; /* Make the text bold */
+  font-size: 30px; /* Set the desired font size, adjust as needed */
+  margin-top: 10px; /* Add some top margin for spacing */
+}
+
+.hug-img{
+  margin-top: 50px;
+}
+.hug-img h1, .hug-img h2 {
+  margin-left:700px; 
+  
+}
+
+.reviews-container {
+  display: flex;
+  gap: 20px; /* Adjust the spacing between reviews as needed */
+  overflow-x: auto; /* Enable horizontal scrolling if reviews don't fit */
+  background-color: #ffede7;
+}
+
+.review {
+  width: 250px; /* Adjust the width of each review card as needed */
+  padding: 10px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+.head-review img {
+  max-width: 50%;
+  height: auto;
+}
+
+.name-review {
+  font-weight: bold;
+}
+
+.rating {
+  color:green;
+}
+
+.credit {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.trip {
+  display: flex;
+  align-items: center;
+}
+
+.trip img {
+  max-width: 40%; /* Ensure the image doesn't exceed its container */
+}
+
+.trip h1,
+.trip h2 {
+  flex: 1; /* Allow headings to take up remaining space */
+  margin-left: 20px; /* Add margin for spacing between image and text */
+}
+.download-button {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border: none;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.download-button img {
+  width: 40px; /* Adjust the size of the Apple logo */
+  margin-right: 10px; /* Add spacing between the logo and text */
+}
+
+.third-last {
+  text-align: center;
+}
+
+.third-last h1,
+.third-last h2 {
+  margin-top: 30px; /* Remove default margin for headings */
+}
+.add-more {
+  display: flex;
+  justify-content: center;
+}
+
+.image-card {
+  position: relative;
+  text-align: center;
+  margin: 0 10px; /* Optional: Add spacing between image-cards */
+  overflow: hidden;
+}
+
+.image-card img {
+  width: 200px; /* Set a fixed width for all images */
+  height: 150px; /* Set a fixed height for all images */
+  object-fit: cover; /* Maintain aspect ratio and cover the entire container */
+  
+  transition: transform 0.3s ease-in-out;
+}
+
+.image-card .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  background: rgba(0, 0, 0, 0.6);
+  transition: opacity 0.3s ease-in-out;
+}
+
+.image-card:hover img {
+  transform: scale(1.1);
+}
+
+.image-card:hover .overlay {
+  opacity: 1;
+}
+
+.overlay-icons {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.overlay-icons i {
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.overlay-icons i:hover {
+  transform: scale(1.2);
+}
+
+.button-container {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.bottom {
+ 
+  padding: 10px ;
+  background-color:  #8a2be2; ;
+  color: white;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.bottom:hover {
+  background-color: #8a2be2; ;
+}
+
+
+
+.question {
+  max-width: 1500px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #ffede7; /* Light peach background color */
+  text-align: center; /* Center the content */
+  margin-top: 30px;
+}
+
+h1, h2 {
+ 
+  margin: 10px 0;
+}
+
+h1 .toggle, h2 .toggle {
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 20px; /* Adjust the right margin as needed */
+}
+
+summary {
+  outline: none;
+  cursor: pointer;
+  list-style-type: none;
+}
+
+.answer p {
+  margin-top: 10px;
+}
+
+.toggle-button {
+  border: none;
+  background: white;
+  padding: 10px; /* Adjust the padding as needed */
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+
+
+.head{
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+  padding-top: 40px;
+  color: white;
+
+}
+.last-div{
+  background-color:  #8a2be2;
+}
+
+.footer-email {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px; /* Adjust the margin as needed */
+}
+
+.ftr-email-form {
+  width: 100%;
+  max-width: 400px; /* Adjust the max-width as needed */
+}
+
+.input-container {
+  display: flex;
+}
+
+.input {
+  flex: 1;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.button {
+  padding: 10px;
+  background-color:white; /* Green color, you can change it */
+  color:#4e098a;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+.error {
+  color: red;
+  margin-bottom: 10px;
+  display: none;
+}
+
+.input:invalid + .error {
+  display: block;
+}
+
+.social-links {
+  text-align: center;
+}
+
+.social-links a {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 24px;
+  color: white; /* Adjust the color as needed */
+}
+
+/* Assuming you're using Font Awesome for the icons */
+.social-links i {
+  vertical-align: middle;
+}
+
+.contact-us {
+  text-align: left;
+  margin-top: 10px;
+  position: relative;
+}
+
+.contact-us button {
+  position: relative;
+  display: block;
+  width: 400px; /* Adjust the width as needed */
+  padding: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  background-color: white; /* Choose a color that fits your design */
+  border: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  margin-bottom: 10px; /* Adjust the margin-bottom to add a gap */
+  margin-top: 40px;
+}
+
+.contact-us button div {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-us button span {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.contact-us button p {
+  font-size: 16px;
+  margin: 0;
+  color: #333; /* Adjust the color as needed */
+}
+
+
+.horizontal-line {
+  margin-top: 20px; /* Adjust the margin-top to add space above the line */
+  border: 1px solid white; /* Color of the horizontal line (adjust as needed) */
+}
+
+.dummy_page {
+  height: 200px;
+  width: 100%;
+  background-color: #f0f0f0;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 60px 0px;
+}
+/* STYLES SPECIFIC TO FOOTER  */
+.footer {
+  width: 100%;
+  position: relative;
+  height: auto;
+  background-color: #070617;
+}
+.footer .col {
+  width: 190px;
+  height: auto;
+  float: left;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 0px 20px 20px 20px;
+}
+.footer .col h1 {
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+  font-size: 12px;
+  line-height: 17px;
+  padding: 20px 0px 5px 0px;
+  color: rgba(255,255,255,0.2);
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.250em;
+}
+.footer .col ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.footer .col ul li {
+  color: #999999;
+  font-size: 14px;
+  font-family: inherit;
+  font-weight: bold;
+  padding: 5px 0px 5px 0px;
+  cursor: pointer;
+  transition: .2s;
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
+}
+.social ul li {
+  display: inline-block;
+  padding-right: 5px !important;
+}
+
+.footer .col ul li:hover {
+  color: #ffffff;
+  transition: .1s;
+  -webkit-transition: .1s;
+  -moz-transition: .1s;
+}
+.clearfix {
+  clear: both;
+}
+@media only screen and (min-width: 1280px) {
+  .contain {
+    width: 1200px;
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 1139px) {
+  .contain .social {
+    width: 1000px;
+    display: block;
+  }
+  .social h1 {
+    margin: 0px;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .footer .col {
+    width: 33%;
+  }
+  .footer .col h1 {
+    font-size: 14px;
+  }
+  .footer .col ul li {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 500px) {
+    .footer .col {
+      width: 50%;
+    }
+    .footer .col h1 {
+      font-size: 14px;
+    }
+    .footer .col ul li {
+      font-size: 13px;
+    }
+}
+@media only screen and (max-width: 340px) {
+  .footer .col {
+    width: 100%;
+  }
+}
+
+
+.last-last-page {
+  display: flex;
+  justify-content: space-around; /* Adjust as needed for spacing */
+  padding: 20px;
+  background-color: #8a2be2; ; /* Adjust as needed for background color */
+}
+
+.footer-list {
+  flex: 1;
+  text-align: center;
+}
+
+.footer-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-list ul li {
+  margin-bottom: 10px; /* Adjust as needed for spacing between list items */
+}
+
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.footer-list {
+  flex: 1;
+  text-align: center;
+}
+
+.footer-list h3 {
+  color: white; /* Adjust as needed for heading color */
+}
+
+.footer-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-list ul li {
+  margin-bottom: 10px;
+  color:#f0f0f0
+}
+
+/* Style for links inside the lists */
+.footer-list ul li a {
+  color: white; /* Adjust as needed for link color */
+  text-decoration: none;
+}
+
+/* Hover effect for links */
+.footer-list ul li a:hover {
+  color:white; /* Adjust as needed for hover color */
+}
+
+.big-mixbook,h4{
+  font-size: 200px;
+  color:white;
+  text-align: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 30px;
+}
+
+.rating {
+  text-align: center;
+  margin-bottom: 50px;
+  
+}
+
+.rating-button {
+  background-color: #3498db; /* Button background color */
+  color: white; /* Button text color */
+  padding: 10px 20px; /* Adjust padding as needed */
+  border: none;
+  display:flex;
+flex-direction: column;
+text-align: left;
+
+  
+}
+
+
+.star {
+  width: 5px; /* Adjust the size of the stars as needed */
+  height: 5px; /* Adjust the size of the stars as needed */
+  background-color: white; /* Color of the stars */
+  border: 3px solid #ccc; /* Border color of the stars */
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  margin: 0 5px; /* Adjust the spacing between stars as needed */
+}
+
+.rating-text {
+  margin-left: 10px; 
+}
+
+.cart-container {
+  position: relative;
+}
+
+.cart-icon {
+  position: relative;
+  display: inline-block;
+}
+
+.cart-icon img {
+  width: 20px; /* Adjust the width and height as needed */
+  height: 20px;
+}
+
+
+
+.cart-icon:hover .popup {
+  display: block;
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.popup-content {
+  text-align: center;
+}
+
+
+
+.navbar {
+  list-style-type: none;
+  padding: 0;
+ 
+}
+
+.nav-item {
+  display: inline-block;
+}
+
+.nav-link {
+  text-decoration: none;
+  color:black;
+  padding: 15px;
+}
+
+.color-black {
+  color: #000;
+}
+input[type="text"] {
+  border: 2px solid darkblue;
+  padding: 10px 20px;
+
+}
+
+button[type="submit"] {
+  background-color: darkblue;
+  color: white;
+  border: 2px solid darkblue;
+  border-radius: 30px;
+  padding: 10px 20px; /* Adjust padding as needed */
+  cursor: pointer;
+}
+
+.image-container img {
+  box-shadow: 0 0 10px whitesmoke; /* Adjust the values for the shadow color and size */
+}
+
+.center-image img {
+  box-shadow: none; /* Remove shadow for the center image */
+}
