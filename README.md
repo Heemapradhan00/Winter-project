@@ -11,7 +11,6 @@ This project consists of various layouts, images, and HTML pages to demonstrate 
 - **exp.js**: JavaScript file for additional functionality in the experiment.
 - **create yours.html**: A page for creating personalized content (may include user input).
 - **album.png, apple logo.jpeg, etc.**: Various image assets used across the layout.
-- **Django project.code-workspace**: Workspace configuration for working with a Django project.
 
 ## Features
 
